@@ -4,6 +4,15 @@
 }
 
 .main {
-    max-width: 1000px;
     margin: 50px auto;
+    padding: 20px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.row p {
+    padding-bottom: 6px;
 }
