@@ -84,7 +84,13 @@ const App = () => {
                     <p>Remaining: {query.data.order.remaining}</p>
                 </div>
             </div>
-            <Line {...config} />
+            <div
+                style={{
+                    marginTop: "40px",
+                }}
+            >
+                <Line {...config} />
+            </div>
         </div>
     );
 };
